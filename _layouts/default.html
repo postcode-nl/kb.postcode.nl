@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="/">{{ site.title }}</a></h1>
+			<h2><a href="/entries/en">English</a></h2>
+			<h2><a href="/entries/nl">Dutch</a></h2>
+            <p>{{ site.description }}</p>
+
+			<ul>
+				<li><a href="https://www.postcode.eu/products/address-api" target="_blank">Address API</a></li>
+				<li><a href="https://www.postcode.eu/products/databases" target="_blank">Databases</a></li>
+				<li><a href="https://www.postcode.eu/contact" target="_blank">Contact</a></li>
+			</ul>
+        </header>
+
+        <section>
+            <h2>{{ page.title }}</h2>
+            {{ content }}
+        </section>
+
+        <footer>
+            <p>Powered by GitHub Pages</p>
+        </footer>
+    </div>
+</body>
+</html>

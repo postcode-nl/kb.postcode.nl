@@ -1,0 +1,21 @@
+title: Postcode.eu Knowledge Base
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# Language Configuration
+languages:
+  - en
+  - nl
+
+# Collection Configuration
+collections:
+  entries:
+    output: true
+    permalink: /:collection/:path
+
+# Default Front Matter
+defaults:
+  - scope:
+      path: "entries"
+    values:
+      layout: default
