@@ -2,9 +2,7 @@ API Status
 ==========
 
 <details>
-
 <summary>Up-to-date information related to the current API status</summary>
---------------------------------------------------------
 
 Nov 18 13:15 - The Cloudflare issue has been resolved. Between 12:30 - 13:10 there were intermittent periods where our services could not be reached. 
 
@@ -127,9 +125,6 @@ We understand that some organisations require the use of **PO numbers** for inte
 *   Make sure any necessary PO numbers are entered **prior to the renewal or onboarding** phase.
 </details>
 
-Autocomplete of Validate API vs. Nederlandse Postcode API
-=========================================================
-
 <details>
 <summary>Wat is het verschil tussen de Autocomplete of Validate API vs. Nederlandse Postcode API?</summary>
 ----------------------------------------------------------------------------------------
@@ -144,9 +139,6 @@ Je kan uiteraard alle API's naast elkaar gebruiken. Zo kan er voor je internatio
 
 Nederlandse adressen die via de Autocomplete of Validate API opgehaald worden hebben een hogere stukprijs omdat deze API's meer functionaliteit biedt. Ook als er een Nederlandse postcode en huisnummer opvraging wordt gedaan op de Autocomplete of Validate API geldt dat tarief.
 </details>
-
-API account weer activeren
-==========================
 
 <details>
 <summary>Hoe kan ik mijn gedeactiveerde account weer activeren?</summary>
@@ -170,9 +162,6 @@ Als het abonnement is opgezegd dan wordt het account automatisch uitgeschakeld a
 Als je een gedeactiveerd testaccount weer wil activeren dan is dit niet mogelijk via de beheeromgeving. Neem voor heractivatie van je account contact via de mail.
 </details>
 
-Factuur betalen
-===============
-
 <details>
 <summary>Welk factuursysteem gebruikt [Postcode.nl](http://postcode.nl)?</summary>
 ---------------------------------------------------------------
@@ -183,23 +172,17 @@ Er wordt gebruikt gemaakt van Moneybird. Je krijgt de factuur verstuurd vanaf ad
 
 Via de betaalpagina kan er ook direct betaald worden met verschillende betaalmethoden.
 </details>
-Factuurgegevens aanpassen
-=========================
 
 <details>
 <summary>Hoe kan ik de factuurgegevens aanpassen?</summary>
-----------------------------------------
 
 Dat kan heel simpel!
 
 Log in op je account met het beheer account en klik in het menu op 'Beheer - Account'. Dan kom je op de pagina terecht waar je factuurgegevens staan en deze kan aanpassen
 </details>
 
-Factuur- en/of accountgegevens wijzigen
-=======================================
-
 <details>
-<summary>Hoe kan ik mijn gegevens wijzigen?</summary>
+<summary>Hoe kan ik mijn factuur- en/of accountgegevens wijzigen?</summary>
 ----------------------------------
 
 Dat kan heel simpel!
@@ -210,9 +193,6 @@ Log in op je account met het beheer account en klik in het menu op 'Beheer - Acc
 
 Voor contractovernames graag contact opnemen via e-mail.
 </details>
-
-Meerdere facturen per jaar
-==========================
 
 <details>
 <summary>Waarom krijg ik meer dan 1 factuur per jaar van [Postcode.nl](http://postcode.nl)?</summary>
@@ -239,9 +219,6 @@ In een aantal gevallen wordt het verbruik niet helemaal goed inschat, bijvoorbee
 Als je meerdere producten afneemt, zoals bijvoorbeeld de Nationale Postcodedatabase en de API, dan is het mogelijk dat je ook meerdere facturen ontvangt. Deze hoeven niet in dezelfde maand gefactureerd te worden.
 </details>
 
-Aanpassen Tier bij verlengen abonnement
-=======================================
-
 <details>
 <summary>Hoe kan ik de Tier voor de volgende abonnementsperiode aanpassen?</summary>
 -----------------------------------------------------------------
@@ -252,9 +229,6 @@ Je kan de limiet voor volgend jaar aanpassen naar een limiet die beter bij je ve
 
 Mocht je over de nieuw ingestelde limiet heen gaan gedurende de abonnementsperiode dan wordt het abonnement alsnog automatisch geüpgraded naar een bijpassende Tier. Het is uiteraard ook mogelijk een hogere Tier in te stellen als je dat verwacht.
 </details>
-
-Overschrijden limiet
-====================
 
 <details>
 <summary>Wat gebeurt er als ik de limiet van mijn huidige Tier overschrijdt?</summary>
@@ -283,11 +257,8 @@ Mocht in de loop van het jaar blijken dat het toch niet voldoende is geweest dan
 Als je voor het volgende abonnementsjaar een lagere limiet wil instellen dan kan dat. Check het [artikel voor het aanpassen van je Tier bij verlengen abonnement](https://kb.postcode.nl/help/aanpassen-tier-bij-verlengen-abonnement).
 </details>
 
-Abonnementenstructuur API
-=========================
-
 <details>
-<summary>Hoe werken de API abonnementen bij [Postcode.nl](http://postcode.nl)?</summary>
+<summary>Hoe werken de API abonnementen bij Postcode.nl?</summary>
 ---------------------------------------------------------------------
 
 Je kiest voorafgaand het abonnementsjaar een Tier waarvan je denkt dat je deze nodig zal hebben. Er wordt geen onderscheid gemaakt in functionaliteit van de API bij de verschillende Tiers. Het gaat puur alleen om het verwachte verbruik. 
@@ -317,9 +288,6 @@ Het doen van geautomatiseerde uptime checks vanuit eigen systemen raden sterk wi
 Wat wij wel aanraden is om goede logging te implementeren. Wanneer er dan iets misgaat tijdens de gebruikelijke API calls kan je eigen systeembeheer daar snel actie op ondernemen, bijvoorbeeld door een intern probleem direct op te lossen, of zo nodig navraag te doen bij ons.
 </details>
 
-Terugmeldingen
-==============
-
 <details>
 <summary>Hoe werken terugmeldingen?</summary>
 --------------------------
@@ -332,9 +300,6 @@ In het geval van nieuwbouw komt deze automatisch bij ons op de site wanneer de g
 
 Als de melding is verstuurd naar de gemeente zal deze het van daar verder oppakken. Wij verwerken de wijzigingen die we doorkrijgen uit de BAG dagelijks.
 </details>
-
-Concurrenten
-============
 
 <details>
 <summary>Waarom is de API van Postcode.nl beter dan die van concurrenten?</summary>
@@ -357,9 +322,6 @@ Op het eerste gezicht zou je denken dat er alleen een prijsverschil is tussen Po
 *   Ongekend ruime rate-limits zijn standaard bij ons: minimaal 150 requests/s en 35 requests/s, respectievelijk voor de Nederlandse en de internationale API. Elke mogelijke piek in jouw gebruik wordt zonder probleem ondersteund.
 </details>
 
-International Address API en postcode huisnummer
-================================================
-
 <details>
 <summary>Waarom kan ik geen postcode en huisnummer in het buitenland gebruiken?</summary>
 ----------------------------------------------------------------------
@@ -372,9 +334,6 @@ De International Address API houdt hier uiteraard rekening mee; een gebruiker ka
 
 Zie voor een technische demo: [https://api.postcode.nl/documentation/international/overview](https://api.postcode.nl/documentation/international/overview)
 </details>
-
-Test account
-============
 
 <details>
 <summary>Hoe kan ik de API testen?</summary>
@@ -389,9 +348,6 @@ Alle gegevens blijven hetzelfde, je hoeft dus niks te wijzigen qua credentials a
 Als je geen account wil registreren maar alleen de werking wil zien, dan is er ook een [demo op de site](https://www.postcode.nl/services/adresdata/webshops).
 </details>
 
-Meer opvragingen dan orders
-===========================
-
 <details>
 <summary>Waarom zie ik meer opvragingen op mijn API account dan dat ik orders heb?</summary>
 -------------------------------------------------------------------------
@@ -403,9 +359,6 @@ Het aantal adres opvragingen komt in de praktijk nooit precies overeen met het a
 *   Opvragingen met ongeldige postcodes of huisnummers: deze opvragingen zullen nooit een adres opleveren. Controleer voor het opvragen of de postcode volledig en in een correct formaat is, en of het huisnummer met cijfers begint. Zorg er ook voor dat een adres pas gecontroleerd wordt als een gebruiker klaar is met typen.
 </details>
 
-Abonnement opzeggen
-===================
-
 <details>
 <summary>Hoe kan ik mijn API abonnement opzeggen?</summary>
 ----------------------------------------
@@ -414,9 +367,6 @@ Opzeggingen voor de API kunnen gedaan worden door in te loggen op de [beheeromge
 
 In het menu 'Beheer' staat een item Abonnement. Hier kan het abonnement dan per eerstvolgende mogelijkheid opgezegd worden.
 </details>
-
-Credentials opvragen
-====================
 
 <details>
 <summary>Ik ben mijn credentials kwijt, hoe kan ik nieuwe opvragen?</summary>
@@ -427,11 +377,8 @@ Als je inlogt met je admin account in de [beheeromgeving](https://account.postco
 Als je die aanklikt, krijg je de Key te zien. De Secret is alleen per mail destijds toegestuurd en kan niet worden opgevraagd. Op deze zelfde pagina staat rechts bovenaan een button om een nieuwe Key en Secret aan te maken. Deze worden dan automatisch gemaild. 
 </details>
 
-Abonnementenstructuur databases
-===============================
-
 <details>
-<summary>Hoe werken de database abonnementen bij [Postcode.nl](http://postcode.nl)?</summary>
+<summary>Hoe werken de database abonnementen bij Postcode.nl?</summary>
 --------------------------------------------------------------------------
 
 Een database abonnement op bijvoorbeeld de Nationale Postcodedatabase Pro wordt voorafgaand het abonnementsjaar gefactureerd. Om alles overzichtelijk te houden heeft de gekozen mutatie interval alsmede het gekozen databaseformaat geen invloed op de prijs. Het maakt dus niet uit of je kiest voor jaarlijkse of wekelijkse updates.
@@ -439,20 +386,13 @@ Een database abonnement op bijvoorbeeld de Nationale Postcodedatabase Pro wordt 
 Na een jaar wordt het abonnement stilzwijgend verlengd.
 </details>
 
-Maximaal aantal resultaten International Address API
-====================================================
-
 <details>
 <summary>Waarom toont de International Address API maar een beperkt aantal huisnummer resultaten?</summary>
-----------------------------------------------------------------------------------------
 
 Dit is een bewuste keuze omdat het niet praktisch is om te veel huisnummers te tonen. In sommige gevallen zou een gebruiker anders door een lijst van tientallen of zelfs honderden resultaten moeten zoeken. Bijvoorbeeld als het om een huisnummer bij de volgende straat gaat: [https://www.postcode.nl/1013GM/37-597](https://www.postcode.nl/1013GM/37-597)
 
 In plaats daarvan kan met meer invoer snel het juiste resultaat bovenkomen. Na intypen van het huisnummer zal dit nummer direct bovenaan komen.
 </details>
-
-Factuur gekregen
-================
 
 <details>
 <summary>Waarom heb ik een Postcode.nl factuur gekregen?</summary>
@@ -463,9 +403,6 @@ We krijgen vaak de vraag waarom wij een factuur versturen, dat is omdat wij een 
 Op de factuur staat aangegeven welk product wij leveren, en in alle gevallen heeft dit met adressen te maken. Zegt het je niks? Neem dan contact met je IT afdeling of webdeveloper, zij weten waar en in welke systemen onze producten gebruikt worden.
 </details>
 
-Extra opvragingen
-=================
-
 <details>
 <summary>Er staan extra opvragingen op de factuur, wat zijn dit?</summary>
 -------------------------------------------------------
@@ -475,18 +412,12 @@ Extra opvragingen bij bestaand abonnement, op de factuur aangeduid als productco
 Ons systeem bekijkt je verbruik in het lopende abonnementsjaar en maakt een inschatting voor het verbruik van de rest van het abonnementsjaar en factureert dit. De extra opvragingen worden bij het verlengen van het abonnement weer in rekening gebracht omdat we er van uitgaan dat je deze ook weer nodig zal hebben in het nieuwe abonnementsjaar.
 </details>
 
-Invoicing portals
-=================
-
 <details>
 <summary>Kan Postcode.nl de factuur ook uploaden in een portal?</summary>
 ------------------------------------------------------
 
 Nee, dat is niet mogelijk. Gezien de hoogte van de facturen en de automatisering van het versturen is het niet rendabel voor ons om handmatig facturen aan te leveren via een portal.
 </details>
-
-Plugins
-=======
 
 <details>
 <summary>Welke plugins zijn er beschikbaar?</summary>
@@ -505,9 +436,6 @@ De betaalde versies worden door derde partijen aangeboden die support op hun plu
 Geen nood, de API kan ook ingebouwd worden met behulp van de [technische documentatie](https://api.postcode.nl/documentation/).
 </details>
 
-Telling hits API
-================
-
 <details>
 <summary>Hoe worden voor het abonnement de hits op de API geteld?</summary>
 --------------------------------------------------------
@@ -517,9 +445,6 @@ We hebben onze pricing voor de autocomplete International Address API expres zo 
 Voor de simpelere Nederlandse Postcode API wordt wel per hit geteld.
 </details>
 
-Postcodedatabase
-================
-
 <details>
 <summary>Ik heb een Postcodedatabase abonnement. Kan ik de database ook downloaden via de beheeromgeving?</summary>
 ------------------------------------------------------------------------------------------------
@@ -527,6 +452,3 @@ Nee, dat is nog niet mogelijk. Account beheer is alleen voor als je de Internati
 
 Neem voor vragen over je Postcodedatabase abonnement direct contact via de mail.
 </details>
-Nee, dat is nog niet mogelijk. Account beheer is alleen voor als je de International Address of Nederlandse Postcode API gebruikt.
-
-Neem voor vragen over je Postcodedatabase abonnement direct contact via de mail.
