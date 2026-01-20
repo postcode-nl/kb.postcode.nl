@@ -2,6 +2,7 @@ title: Postcode.eu Knowledge Base
 description: Frequently Asked Questions about the Postcode.eu API
 theme: jekyll-theme-minimal
 markdown: GFM
+permalink: /:slugified_categories/:slug
 
 collections:
   categories:

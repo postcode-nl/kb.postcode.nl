@@ -5,7 +5,7 @@ title: Home
 
 # Welcome to Our Knowledge Base
 
-{% assign category_groups = site.pages | where_exp: "page", "page.path contains '_categories/'" | group_by_exp: "page", "page.path | split: '/' | slice: 1, 1" %}
+{% assign category_groups = site.pages | where_exp: "page", "page.path contains 'entries/'" | group_by_exp: "page", "page.path | split: '/' | slice: 1, 1" %}
 
 {% for category_group in category_groups %}
 ## {{ category_group.name | capitalize | replace: '-', ' ' }}
