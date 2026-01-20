@@ -1,4 +1,6 @@
-<summary>Kan ik een SLA en/of een DORA addendum afsluiten?</summary>
+---
+title: Kan ik een SLA en/of een DORA addendum afsluiten?
+---
 Wij bieden voor onze diensten de mogelijkheid om een Service Level Agreement (SLA) en/of DORA Addendum af te sluiten.
 
 **Service Level Agreement (SLA)**
@@ -16,6 +18,4 @@ Wij hanteren uitsluitend onze eigen DORA- en SLA-overeenkomsten. We accepteren d
 De DORA- en SLA-overeenkomsten zijn beschikbaar tegen betaling en worden aangeboden als extra toevoegingen bovenop het bestaande abonnement. De actuele prijzen staan vermeld op onze prijspagina.
 
 Nieuwe klanten kunnen bij het registreren van een account direct kiezen om een SLA en/of DORA Addendum toe te voegen. Bestaande klanten kunnen eenvoudig contact met ons opnemen om dit alsnog te laten activeren.
-</details>
 
-<details>

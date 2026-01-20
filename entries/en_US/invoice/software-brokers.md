@@ -1,4 +1,6 @@
-<summary>Can I use a Software broker to purchase any services?</summary>
+---
+title: Can I use a Software broker to purchase any services?
+---
 Organisations may occasionally choose to work with **software brokers or procurement intermediaries** to manage the purchasing process of our services. While this may fit your internal procurement structure, please note that we **only support our own purchasing workflow**. The following guidelines apply:
 
 ### **Pricing transparency**
@@ -54,6 +56,4 @@ We understand that some organisations require the use of **PO numbers** for inte
 *   Direct your procurement team to our pricing page for up-to-date pricing information.
 
 *   Make sure any necessary PO numbers are entered **prior to the renewal or onboarding** phase.
-</details>
 
-<details>

@@ -1,4 +1,6 @@
-<summary>Welke plugins zijn er beschikbaar?</summary>
+---
+title: Welke plugins zijn er beschikbaar?
+---
 Alle bij ons bekende plugins hebben wij op onze [implementatie pagina](https://www.postcode.nl/services/adresdata/implementatie) gezet. Zo zijn er o.a. plugins voor Shopware, Magento en WooCommerce.
 
 **Waarom moet ik voor sommige plugins extra betalen?**
@@ -10,6 +12,4 @@ De betaalde versies worden door derde partijen aangeboden die support op hun plu
 **Staat je plugin er niet bij?**
 
 Geen nood, de API kan ook ingebouwd worden met behulp van de [technische documentatie](https://api.postcode.nl/documentation/).
-</details>
 
-<details>

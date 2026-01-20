@@ -1,4 +1,6 @@
-<summary>Hoe kan ik mijn gedeactiveerde account weer activeren?</summary>
+---
+title: Hoe kan ik mijn gedeactiveerde account weer activeren?
+---
 Er kunnen een aantal redenen zijn waarom je account is gedeactiveerd.
 
 *   **Account is uitgeschakeld wegens een niet betaalde factuur**
@@ -15,6 +17,4 @@ Als het abonnement is opgezegd dan wordt het account automatisch uitgeschakeld a
 
 
 Als je een gedeactiveerd testaccount weer wil activeren dan is dit niet mogelijk via de beheeromgeving. Neem voor heractivatie van je account contact via de mail.
-</details>
 
-<details>

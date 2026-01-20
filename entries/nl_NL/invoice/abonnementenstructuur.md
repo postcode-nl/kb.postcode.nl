@@ -1,4 +1,6 @@
-<summary>Hoe werken de API abonnementen bij Postcode.nl?</summary>
+---
+title: Hoe werken de API abonnementen bij Postcode.nl?
+---
 Je kiest voorafgaand het abonnementsjaar een Tier waarvan je denkt dat je deze nodig zal hebben. Er wordt geen onderscheid gemaakt in functionaliteit van de API bij de verschillende Tiers. Het gaat puur alleen om het verwachte verbruik. 
 
 **Waarom worden de API abonnementen voorafgaand het abonnementsjaar in rekening gebracht?**
@@ -14,6 +16,4 @@ Bij het verlengen van het nieuwe abonnementsjaar wordt de Tier van de upgrade we
 **Hoe kan ik voorkomen dat ik naar een te grote Tier wordt geüpgraded?**
 
 Omdat de prognose wordt gedaan op je verbruik in het verleden kan het zijn dat de voorgestelde upgrade niet aansluit bij je totale jaarverbruik. Bijvoorbeeld omdat je kerstpakketten verkoopt of je het drukker hebt in de zomermaanden omdat je zwembaden verkoopt. Daarom kan je kiezen naar welke Tier je wordt geüpgraded maar dit is alleen mogelijk voordat de daadwerkelijke upgrade wordt uitgevoerd.
-</details>
 
-<details>

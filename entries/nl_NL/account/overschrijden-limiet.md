@@ -1,4 +1,6 @@
-<summary>Wat gebeurt er als ik de limiet van mijn huidige Tier overschrijdt?</summary>
+---
+title: Wat gebeurt er als ik de limiet van mijn huidige Tier overschrijdt?
+---
 Maak je allereerst geen zorgen, _**de API wordt niet uitgezet**_ als je over je limiet heen gaat. We vinden het belangrijk dat de API altijd blijft werken zodat je klanten gewoon kunnen blijven bestellen en je geen onderbrekingen in je processen krijgt.
 
 Om je op de hoogte te houden van je verbruik worden er per mail notificaties verstuurd. Dit gebeurt bij 50%, 80% en 100% van je limiet.
@@ -20,6 +22,4 @@ Mocht in de loop van het jaar blijken dat het toch niet voldoende is geweest dan
 **Eenmalige overschrijding limiet**
 
 Als je voor het volgende abonnementsjaar een lagere limiet wil instellen dan kan dat. Check het [artikel voor het aanpassen van je Tier bij verlengen abonnement](https://kb.postcode.nl/help/aanpassen-tier-bij-verlengen-abonnement).
-</details>
 
-<details>
