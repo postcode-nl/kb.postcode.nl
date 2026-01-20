@@ -1,5 +1,5 @@
 ---
-title: Welk factuursysteem gebruikt [Postcode.nl](http://postcode.nl)?
+title: Welk factuursysteem gebruikt Postcode.nl?
 ---
 Om facturen te versturen maakt Postcode.nl gebruik van een externe partij, zo kunnen wij al onze aandacht aan de API's geven!
 

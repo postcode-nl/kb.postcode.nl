@@ -1,5 +1,5 @@
 ---
-title: Waarom krijg ik meer dan 1 factuur per jaar van [Postcode.nl](http://postcode.nl)?
+title: Waarom krijg ik meer dan 1 factuur per jaar van Postcode.nl?
 ---
 De adres API's en de bijbehorende kosten zijn gebaseerd op het verbruik hiervan. Abonnementen worden voorafgaand het abonnementsjaar in rekening gebracht. Zo kan het gebeuren dat het verbruik binnen het abonnementsjaar buiten de gekozen Tier valt. In dat geval kunnen er twee dingen gebeuren. Het abonnement wordt geüpgraded en/of er worden extra opvragingen in rekening gebracht.
 

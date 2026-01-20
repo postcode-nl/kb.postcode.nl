@@ -12,7 +12,7 @@ title: Home
 
 {% assign category_pages = category_group.items | sort: 'path' %}
 {% for page in category_pages %}
-- [{{ page.title | default: page.path | split: '/' | last | replace: '.md', '' | capitalize }}](/{{ page.path | remove_first: '_' | replace: '.md', '' }})
+- [{{ page.title | default: page.path | split: '/' | last | replace: '.md', '' | capitalize }}](/{{ page.path | replace: '.md', '' }})
 {% endfor %}
 
 {% endfor %}
