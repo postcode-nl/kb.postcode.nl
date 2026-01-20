@@ -1,2 +1,16 @@
-theme: jekyll-theme-architect
+title: Postcode.eu Knowledge Base
+description: Frequently Asked Questions about the Postcode.eu API
+theme: jekyll-theme-minimal
 markdown: GFM
+
+collections:
+  categories:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: "categories"
+      type: "pages"
+    values:
+      layout: "default"
