@@ -1,11 +1,22 @@
 title: Postcode.eu Knowledge Base
-theme: jekyll-theme-minimal
 markdown: kramdown
 
 # Language Configuration
 languages:
   - en
   - nl
+
+translations:
+  en:
+    categories:
+      account: "How do I manage my API account and the associated subscription?"
+      api: "Frequently asked questions about the APIs"
+      invoice: "Invoices"
+  nl:
+    categories:
+      account: "Hoe beheer ik mijn API account en het bijbehorende abonnement?"
+      api: "De meest gestelde vragen over de API's"
+      invoice: "Facturen"
 
 # Collection Configuration
 collections:
@@ -16,6 +27,15 @@ collections:
 # Default Front Matter
 defaults:
   - scope:
-      path: "entries"
+      path: ""
     values:
       layout: default
+      excerpt_separator: ""
+  - scope:
+      path: "_entries/en"
+    values:
+      language: en
+  - scope:
+      path: "_entries/nl"
+    values:
+      language: nl

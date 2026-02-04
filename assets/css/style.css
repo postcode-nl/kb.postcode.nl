@@ -1,0 +1,310 @@
+@import url('syntax-highlight/default.css') (prefers-color-scheme: light);
+@import url('syntax-highlight/monokai.css') (prefers-color-scheme: dark);
+
+:root {
+	--font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	--font-size-base: 20px;
+	--line-height-base: 1.4;
+	--line-height-headings: 1.2;
+	--color-text: #404040;
+	--color-primary: #00759a;
+	--color-primary-light: #edf6f9;
+	--color-primary-dark: #003b4d;
+	--color-primary-300: #27a9c8;
+	--color-secondary: #d49b00;
+}
+
+html {
+	font-family: var(--font-family-base);
+	height: 100%;
+}
+
+body {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100%;
+	margin: 0;
+	font-size: var(--font-size-base);
+	line-height: var(--line-height-base);
+	color: var(--color-text);
+	background-color: #fff;
+}
+
+header {
+	--background-gradient: linear-gradient(
+		in oklab 90deg,
+		var(--color-primary-dark),
+		var(--color-primary-300)
+	);
+	padding: 40px 0;
+	background: var(--color-primary) var(--background-gradient) no-repeat 0 0;
+	color: #fff;
+
+	.wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+	}
+
+	a {
+		font-size: 14px;
+		font-weight: 600;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: inherit;
+
+		&:hover {
+			color: var(--color-secondary);
+		}
+	}
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		list-style-type: none;
+		gap: 0 20px;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	text-transform: uppercase;
+	color: var(--color-primary);
+}
+
+h1 {
+	margin: 50px 0 10px 0;
+	font-size: 30px;
+	line-height: var(--line-height-headings);
+	font-weight: 600;
+}
+
+h2 {
+	margin: 40px 0 10px 0;
+	font-size: 24px;
+	line-height: var(--line-height-headings);
+}
+
+h3 {
+	font-size: 18px;
+	margin: 40px 0 5px 0;
+}
+
+h4 {
+	font-size: 16px;
+	margin: 20px 0 5px 0;
+}
+
+h5 {
+	font-size: 14px;
+	margin: 20px 0 5px 0;
+}
+
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	:first-child {
+		margin-top: 0;
+	}
+
+	:last-child {
+		margin-bottom: 0;
+	}
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration-thickness: 1px;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+code {
+	font-size: 90%;
+	line-height: 1.3;
+}
+
+small {
+	font-size: 85%;
+}
+
+blockquote {
+	margin: 40px 0;
+	padding: 20px;
+	font-size: 24px;
+	text-align: center;
+	color: var(--color-primary);
+	background-color: var(--color-primary-light);
+
+	:first-child {
+		margin-top: 0;
+	}
+
+	:last-child {
+		margin-bottom: 0;
+	}
+}
+
+footer {
+	margin-top: 80px;
+	padding: 40px 0;
+	font-size: 16px;
+	background-color: var(--color-primary-dark);
+	color: #fff;
+}
+
+address {
+	font-style: normal;
+}
+
+figure {
+	margin: 0;
+}
+
+.wrapper {
+	box-sizing: border-box;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.logo {
+	line-height: 40px;
+
+	a {
+		display: block;
+		width: 226px;
+		height: 0;
+		padding-top: 42px;
+		overflow: hidden;
+		background: url(../img/postcodeeu-logo.svg) no-repeat 0 0;
+		background-size: contain;
+	}
+}
+
+.footer-copyright {
+	box-sizing: border-box;
+	text-align: center;
+	opacity: .65;
+}
+
+.kb-entries {
+	padding: 20px 40px;
+	background-color: var(--color-primary-light);
+
+	::marker {
+		color: var(--color-primary);
+	}
+
+	li + li {
+		margin-top: 10px;
+	}
+}
+
+.highlight pre {
+	padding: 10px 20px;
+	background-color: var(--color-primary-light);
+}
+
+@media (max-width: 1366px) {
+	.wrapper {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	header {
+		padding: 20px 0;
+
+		.wrapper {
+			display: block;
+		}
+	}
+
+	.nav-primary {
+		margin-top: 10px;
+	}
+
+	.nav-language {
+		position: absolute;
+		top: 20px;
+		right: 40px;
+	}
+}
+
+@media (max-width: 640px) {
+	header {
+		padding-top: 10px;
+	}
+
+	.wrapper {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.nav-primary {
+		margin-bottom: 20px;
+	}
+
+	.nav-language {
+		position: static;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-text: oklch(from var(--color-primary-light) .9 c h);
+	}
+
+	body {
+		background-color: oklch(from var(--color-primary) .25 calc(c * .25) h);
+	}
+
+	header {
+		--background-gradient: linear-gradient(
+			in oklab 90deg,
+			var(--color-primary-dark),
+			oklch(from var(--color-primary-300) .5 c h)
+		);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
+		color: oklch(from var(--color-primary-light) .85 c h);
+	}
+
+	a {
+		color: var(--color-primary-300);
+	}
+
+	.kb-entries {
+		background-color: oklch(from var(--color-primary) .3 calc(c * .45) h);
+
+		a,
+		::marker {
+			color: var(--color-text);
+			opacity: .85;
+		}
+	}
+
+	.highlight pre {
+		background-color: oklch(from var(--color-primary) .2 calc(c * .2) h);
+	}
+
+}

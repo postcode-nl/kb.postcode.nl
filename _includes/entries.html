@@ -1,0 +1,17 @@
+{% assign entries = site.entries
+	| where: "language", page.language
+	| where_exp: "entry", "entry.name != 'index.md'"
+	| group_by_exp: "entry", "entry.relative_path | split: '/' | slice: 2 | first"
+%}
+
+{% for group in entries %}
+<h2>{{ site.translations[page.language].categories[group.name] }}</h2>
+
+<ul class="kb-entries">
+	{% for entry in group.items %}
+		<li>
+			<a href="{{ entry.url }}">{{ entry.title }}</a>
+		</li>
+	{% endfor %}
+</ul>
+{% endfor %}

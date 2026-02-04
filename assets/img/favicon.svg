@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style>
+		@media (prefers-color-scheme: dark) {
+			rect {
+				display: none;
+			}
+		}
+	</style>
+	<defs>
+		<linearGradient id="lg">
+			<stop stop-color="#003b4d" offset="0"/>
+			<stop stop-color="#14738c" offset="1"/>
+		</linearGradient>
+	</defs>
+	<rect width="400" height="400" rx="50" fill="url(#lg)"/>
+	<path d="m298.16 166.3-101.41 213.7-101.4-213.7a88.983 88.983 0 0 1-6.9383-37.923 108.34 108.34 0 1 1 216.68 0 88.983 88.983 0 0 1-6.9383 37.923zm-101.41-92.097a54.166 54.166 0 1 0 54.166 54.165 54.166 54.166 0 0 0-54.166-54.165z" fill="#fff"/>
+</svg>

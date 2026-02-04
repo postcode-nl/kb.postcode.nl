@@ -21,5 +21,4 @@ Mocht in de loop van het jaar blijken dat het toch niet voldoende is geweest dan
 
 **Eenmalige overschrijding limiet**
 
-Als je voor het volgende abonnementsjaar een lagere limiet wil instellen dan kan dat. Check het [artikel voor het aanpassen van je Tier bij verlengen abonnement](https://kb.postcode.nl/help/aanpassen-tier-bij-verlengen-abonnement).
-
+Als je voor het volgende abonnementsjaar een lagere limiet wil instellen dan kan dat. Check het [artikel voor het aanpassen van je Tier bij verlengen abonnement]({% link _entries/nl/account/aanpassen-tier-bij-verlengen-abonnement.md %}).

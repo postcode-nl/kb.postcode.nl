@@ -1,33 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-    <div class="wrapper">
-        <header>
-            <h1><a href="/">{{ site.title }}</a></h1>
-			<h2><a href="/entries/en">English</a></h2>
-			<h2><a href="/entries/nl">Dutch</a></h2>
-            <p>{{ site.description }}</p>
+{% assign language = page.language | default: 'en' %}
+<html lang="{{ language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="author" content="Postcode.nl BV">
+		<title>{{ page.title }} – {{ site.title }}</title>
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="icon" sizes="any" href="/assets/img/favicon.ico">
+		<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+	</head>
+	<body>
+		<header>
+			<div class="wrapper">
+				<div class="logo logo-header">
+					<a href="/{% if language != 'en' %}entries/{{ language }}{% endif %}">Postcode.eu</a>
+				</div>
 
-			<ul>
-				<li><a href="https://www.postcode.eu/products/address-api" target="_blank">Address API</a></li>
-				<li><a href="https://www.postcode.eu/products/databases" target="_blank">Databases</a></li>
-				<li><a href="https://www.postcode.eu/contact" target="_blank">Contact</a></li>
-			</ul>
-        </header>
+				<nav class="nav-primary">
+					{% include {{ language | append: '/nav-primary.html' }} %}
+				</nav>
 
-        <section>
-            <h2>{{ page.title }}</h2>
-            {{ content }}
-        </section>
+				<nav class="nav-language">
+					<ul>
+						<li>
+							<a href="{% link _entries/en/index.md %}">🇬🇧 English</a>
+						</li>
+						<li>
+							<a href="{% link _entries/nl/index.md %}">🇳🇱 Nederlands</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-        <footer>
-            <p>Powered by GitHub Pages</p>
-        </footer>
-    </div>
-</body>
+		<main>
+			<div class="wrapper">
+				<h1>{{ page.title }}</h1>
+
+				{{ content }}
+			</div>
+		</main>
+
+		<footer>
+			<div class="wrapper">
+				<p class="footer-copyright">
+					Copyright &copy; {{ site.time | date: '%Y' }} Postcode.nl B.V.
+				</p>
+			</div>
+		</footer>
+	</body>
 </html>
