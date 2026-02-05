@@ -1,7 +1,7 @@
 ---
 title: Knowledge Base
+language: en
 permalink: /
-list: false
 ---
 
 {% include entries.html %}

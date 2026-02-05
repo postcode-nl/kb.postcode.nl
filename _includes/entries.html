@@ -1,6 +1,5 @@
 {% assign entries = site.entries
 	| where: "language", page.language
-	| where_exp: "entry", "entry.list != false"
 	| group_by_exp: "entry", "entry.relative_path | split: '/' | slice: 2 | first"
 %}
 

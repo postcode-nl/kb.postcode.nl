@@ -1,6 +1,6 @@
 ---
 title: Kennisbank
-list: false
+language: nl
 ---
 
 {% include entries.html %}
