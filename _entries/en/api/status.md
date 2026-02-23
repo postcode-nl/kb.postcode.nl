@@ -1,11 +1,8 @@
 ---
 title: Up-to-date information related to the current API status
 ---
-Nov 18 13:15 - The Cloudflare issue has been resolved. Between 12:30 - 13:10 there were intermittent periods where our services could not be reached. 
 
-Nov 18 12:50 - Our API is currently being impacted by a [Cloudflare issue](https://www.cloudflarestatus.com/incidents/8gmgl950y3h7). We are working on a solution.
-
-## [status.postcode.eu](https://status.postcode.eu/) 
+## [status.postcode.eu](https://status.postcode.eu/)
 
 *   Check the current status of our API's using the link above.
 
