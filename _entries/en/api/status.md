@@ -2,6 +2,11 @@
 title: Up-to-date information related to the current API status
 ---
 
+## Current status
+* Our API's are up and functioning normally
+* API monitoring is showing downtime - *this is incorrect*. We are experiencing an issue with our monitoring and are working on a solution.
+
+
 ## [status.postcode.eu](https://status.postcode.eu/)
 
 *   Check the current status of our API's using the link above.
