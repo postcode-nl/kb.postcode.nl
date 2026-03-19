@@ -27,4 +27,4 @@ We use machines in the following locations:
 
 
 ## Recent incidents
-* March 14th - March 18th: intermittent downtime incorrectly registered on status.postcode.eu. *There were no actual API issues during this period*, there was a monitoring problem.
+* March 14th - March 18th: intermittent downtime incorrectly registered on status.postcode.eu. *There were no actual API issues during this period*. This was a monitoring error caused by a [Cloudflare issue](https://www.cloudflarestatus.com/incidents/kxvggpg7kwx5).
