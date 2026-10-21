@@ -16,6 +16,10 @@ Additionally, we have shut down our client facing web interface at account.postc
 
 We are monitoring the situation and will be applying security updates to our servers as soon as they come out.
 
+#### 21-10-2026 16:20 CET
+
+We have updated our servers to the latest PHP releases that address the vulnerabilities. Our servers are no longer vulnerable.
+
 ## Common issues
 
 Are you experiencing API errors even though the API is up? Below are some common issues that you might encounter.
