@@ -27,4 +27,11 @@ We use machines in the following locations:
 
 
 ## Recent incidents
-* March 14th - March 18th: intermittent downtime incorrectly registered on status.postcode.eu. *There were no actual API issues during this period*. This was a monitoring error caused by a [Cloudflare issue](https://www.cloudflarestatus.com/incidents/kxvggpg7kwx5).
+
+### PHP vulnerability - 21-10-2026
+
+We are aware of the [PHP vulnerabilities](https://www.php.net/archive/2026.php#2026-10-20-1) that have come to light. In order to address this issue we have taken steps to mitigate potential impact on our applications.
+
+Additionally, we have shut down our client facing web interface at account.postcode.eu. This precaution has no impact on the availability of our real-time API products.
+
+We are monitoring the situation and will be applying security updates to our servers as soon as they come out.
